@@ -9,4 +9,5 @@ def bath_badge_creator(attendees)
   
 end 
 
-def assign_rooms()
+def assign_rooms(attendees)
+  attendees.collect do |
